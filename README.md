@@ -13,6 +13,11 @@ npm install
 # Run the application
 npm start
 
+#If you encounter a problem with npm start
+npx json-server --watch db.json --port 3002
+#then
+npm run dev
+
 Understanding Requirements
 The user should be able to:
   View a list of reservations.
