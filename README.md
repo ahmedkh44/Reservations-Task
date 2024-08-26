@@ -14,7 +14,7 @@ npm install
 npm start
 
 #If you encounter a problem with npm start
-npx json-server --watch db.json --port 3002
+npx json-server --watch mockData.json --port 3002
 #then
 npm run dev
 
